@@ -13,10 +13,10 @@ mongoose.connect("mongodb://127.0.0.1:27017/wanderlust")
 });
 
 
-// app.get("/" ,(req, res)=>{
-//     console.log("hi")
-//    res.send("hi from abhi");
-// })
+app.get("/" ,(req, res)=>{
+    console.log("hi")
+   res.send("hi from abhi");
+})
 
 // app.get("/test", async(req,res)=>{
 //      let samplelisting = new listing({
